@@ -1,0 +1,27 @@
+{
+  "version": "2.4.1",
+  "summary": {
+    "title": "E-Commerce Website",
+    "owner": "harth",
+    "description": "This system is an e-commerce web application that allows users to register, log in, browse products, and complete purchases through a secure payment gateway. It includes a user interface, web server, database, and admin panel.\n",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "New STRIDE diagram",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.4.1",
+        "cells": [],
+        "description": "Main STRIDE diagram"
+      }
+    ],
+    "diagramTop": 1,
+    "reviewer": "",
+    "threatTop": 0
+  }
+}
