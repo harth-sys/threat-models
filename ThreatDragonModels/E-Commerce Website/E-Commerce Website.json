@@ -16,12 +16,1245 @@
         "placeholder": "New STRIDE diagram description",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
         "version": "2.4.1",
-        "cells": [],
+        "cells": [
+          {
+            "position": {
+              "x": 199.99999999999454,
+              "y": -439.99999999999415
+            },
+            "size": {
+              "width": 790,
+              "height": 550
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "803d41b7-f7e8-4b24-9a60-7f7a816c7893",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 47.499999999999886,
+              "y": -320
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "user"
+              },
+              "body": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "1cf46a40-0de2-4858-ab6e-b357b5775f20"
+                },
+                {
+                  "group": "right",
+                  "id": "19a4b617-26a8-4e1a-9728-f891a5ed9d89"
+                },
+                {
+                  "group": "bottom",
+                  "id": "550df3af-bba9-4162-841b-4b699e5b5616"
+                },
+                {
+                  "group": "left",
+                  "id": "c9519fbd-d2d7-43b6-9353-bf700453730d"
+                }
+              ]
+            },
+            "id": "85a3b0ad-ce77-40be-ae22-06a3d99a07b9",
+            "zIndex": 1,
+            "data": {
+              "type": "tm.Actor",
+              "name": "user",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "providesAuthentication": false,
+              "threats": [
+                {
+                  "id": "0d2d939b-9b9f-40fc-aae8-6c4d39e65af6",
+                  "title": "Fake user impersonation",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Spoofing",
+                  "description": "Attacker may attempt to impersonate a legitimate user to access the system",
+                  "mitigation": "Use strong authentication (e.g., 2FA) and monitor login patterns",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 1,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 1,
+                "repudiation": 0
+              }
+            }
+          },
+          {
+            "position": {
+              "x": 600,
+              "y": -105.00000000000023
+            },
+            "size": {
+              "width": 110,
+              "height": 90
+            },
+            "attrs": {
+              "text": {
+                "text": "web server"
+              },
+              "body": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "d7d5022d-21b8-4a44-8a4d-6ea91818bc9b"
+                },
+                {
+                  "group": "right",
+                  "id": "b5306f98-8d62-466b-849c-535037dc63ff"
+                },
+                {
+                  "group": "bottom",
+                  "id": "c6acc44b-22ee-495a-81ba-48dcb1b9c783"
+                },
+                {
+                  "group": "left",
+                  "id": "a124a1de-664c-4fbe-a85f-020c250a5f08"
+                }
+              ]
+            },
+            "id": "351e5b5f-d4cc-4f9c-a231-e88f2edb6ad3",
+            "zIndex": 2,
+            "data": {
+              "type": "tm.Process",
+              "name": "web server",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": [
+                {
+                  "id": "98299ee9-2a8b-4480-8fe4-80b5246da280",
+                  "title": "Overloading the server",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Denial of service",
+                  "description": "Server may be overwhelmed by excessive traffic",
+                  "mitigation": "Apply rate limiting and enable DDoS protection",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 3,
+                  "score": ""
+                },
+                {
+                  "id": "9d6ffc08-b106-4616-8c35-656344f624a0",
+                  "title": "Attacker gains admin access",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Elevation of privilege",
+                  "description": "Exploiting vulnerabilities to gain unauthorized privileges",
+                  "mitigation": "Enforce RBAC, use MFA, apply security patches",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 4,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 0,
+                "tampering": 0,
+                "repudiation": 0,
+                "informationDisclosure": 0,
+                "denialOfService": 1,
+                "elevationOfPrivilege": 1
+              }
+            }
+          },
+          {
+            "position": {
+              "x": 490,
+              "y": -300
+            },
+            "size": {
+              "width": 130,
+              "height": 90
+            },
+            "attrs": {
+              "text": {
+                "text": "web browser"
+              },
+              "body": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "d7d5022d-21b8-4a44-8a4d-6ea91818bc9b"
+                },
+                {
+                  "group": "right",
+                  "id": "b5306f98-8d62-466b-849c-535037dc63ff"
+                },
+                {
+                  "group": "bottom",
+                  "id": "c6acc44b-22ee-495a-81ba-48dcb1b9c783"
+                },
+                {
+                  "group": "left",
+                  "id": "a124a1de-664c-4fbe-a85f-020c250a5f08"
+                }
+              ]
+            },
+            "id": "24f7c759-2430-47c6-87fc-73f7a027aca7",
+            "zIndex": 3,
+            "data": {
+              "type": "tm.Process",
+              "name": "web browser",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": [
+                {
+                  "id": "eb521445-9f8c-4511-aa87-813c90d4259c",
+                  "title": "Tampering with client-side input",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Tampering",
+                  "description": "Attacker may modify data before sending it to the server",
+                  "mitigation": "Validate all input on the server side",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 2,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 0,
+                "tampering": 1,
+                "repudiation": 0,
+                "informationDisclosure": 0,
+                "denialOfService": 0,
+                "elevationOfPrivilege": 0
+              }
+            }
+          },
+          {
+            "position": {
+              "x": 219.9999999999999,
+              "y": -155.00000000000023
+            },
+            "size": {
+              "width": 110,
+              "height": 140
+            },
+            "attrs": {
+              "text": {
+                "text": "\n\nAdmin Panel\n\n"
+              },
+              "body": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "d7d5022d-21b8-4a44-8a4d-6ea91818bc9b"
+                },
+                {
+                  "group": "right",
+                  "id": "b5306f98-8d62-466b-849c-535037dc63ff"
+                },
+                {
+                  "group": "bottom",
+                  "id": "c6acc44b-22ee-495a-81ba-48dcb1b9c783"
+                },
+                {
+                  "group": "left",
+                  "id": "a124a1de-664c-4fbe-a85f-020c250a5f08"
+                }
+              ]
+            },
+            "id": "85e70575-4f2f-47c9-a498-5188bc97a8d6",
+            "zIndex": 4,
+            "data": {
+              "type": "tm.Process",
+              "name": "\n\nAdmin Panel\n\n",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": [
+                {
+                  "id": "9160afbc-8a64-4493-91cb-ed1e432eaa6e",
+                  "title": "Low-level user accesses admin functions",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Elevation of privilege",
+                  "description": "Exploits used to gain admin-level access",
+                  "mitigation": "Enforce strict RBAC, MFA, and input validation",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 8,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 0,
+                "tampering": 0,
+                "repudiation": 0,
+                "informationDisclosure": 0,
+                "denialOfService": 0,
+                "elevationOfPrivilege": 1
+              }
+            }
+          },
+          {
+            "position": {
+              "x": 761,
+              "y": -330
+            },
+            "size": {
+              "width": 120,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "data base"
+              },
+              "topLine": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "7a69e5c5-3020-416e-b7eb-39f963fc1b2b"
+                },
+                {
+                  "group": "right",
+                  "id": "a81ece88-6ec9-4e35-b1cd-846039d86d62"
+                },
+                {
+                  "group": "bottom",
+                  "id": "0eb8a08d-0588-44b8-99d7-e3b56b403078"
+                },
+                {
+                  "group": "left",
+                  "id": "7d25e07d-c680-49d1-a959-e4fcdab8072f"
+                }
+              ]
+            },
+            "id": "3bc905f5-672b-4aa4-97fc-c8192543c4c8",
+            "zIndex": 5,
+            "data": {
+              "type": "tm.Store",
+              "name": "data base",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isALog": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "storesCredentials": false,
+              "storesInventory": false,
+              "threats": [
+                {
+                  "id": "ef10d06d-ca2f-4dd3-b100-49b4fa5b386c",
+                  "title": "Exposing sensitive data",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Information disclosure",
+                  "description": "Unauthorized access to customer or payment information",
+                  "mitigation": "Encrypt sensitive data, enforce access controls",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 5,
+                  "score": ""
+                },
+                {
+                  "id": "173968dd-91bf-471d-a35f-75fe34bb543f",
+                  "title": " Data modification",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Tampering",
+                  "description": "Attacker may modify stored data such as product prices",
+                  "mitigation": "Use DB integrity controls and enable audit logs",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 6,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 1,
+                "repudiation": 0,
+                "informationDisclosure": 1,
+                "denialOfService": 0
+              }
+            }
+          },
+          {
+            "position": {
+              "x": 1020,
+              "y": -15.000000000000227
+            },
+            "size": {
+              "width": 150,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Payment Gateway"
+              },
+              "body": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "1cf46a40-0de2-4858-ab6e-b357b5775f20"
+                },
+                {
+                  "group": "right",
+                  "id": "19a4b617-26a8-4e1a-9728-f891a5ed9d89"
+                },
+                {
+                  "group": "bottom",
+                  "id": "550df3af-bba9-4162-841b-4b699e5b5616"
+                },
+                {
+                  "group": "left",
+                  "id": "c9519fbd-d2d7-43b6-9353-bf700453730d"
+                }
+              ]
+            },
+            "id": "fefb0419-2c16-49b2-a5ba-4130b2139949",
+            "zIndex": 6,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Payment Gateway",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "providesAuthentication": false,
+              "threats": [
+                {
+                  "id": "d3a79fc1-36c4-4b9c-8eb9-e14260ccbb53",
+                  "title": "Fake payment gateway",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Spoofing",
+                  "description": "Attacker may attempt to impersonate a legitimate user to access the system",
+                  "mitigation": "Use strong authentication (e.g., 2FA) and monitor login patterns",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 7,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 1,
+                "repudiation": 0
+              }
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Login Info\n",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "e25c3378-c614-4e2e-8118-7ab7fbae8571",
+                  "title": " User denies sending login request",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Tampering",
+                  "description": "No logs make it difficult to trace user actions",
+                  "mitigation": "Implement full logging and session tracking",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 9,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 1,
+                "informationDisclosure": 0,
+                "denialOfService": 0
+              }
+            },
+            "labels": [
+              "Login Info\n"
+            ],
+            "id": "fbb973e9-d569-4fd8-b089-8ae9a948bc83",
+            "source": {
+              "cell": "85a3b0ad-ce77-40be-ae22-06a3d99a07b9",
+              "port": "19a4b617-26a8-4e1a-9728-f891a5ed9d89"
+            },
+            "target": {
+              "cell": "24f7c759-2430-47c6-87fc-73f7a027aca7",
+              "port": "a124a1de-664c-4fbe-a85f-020c250a5f08"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Search Request\n",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "0f4942e5-6a5b-42e3-b05a-13b36854d544",
+                  "title": "Modified request data",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Tampering",
+                  "description": "Malicious input injected by user",
+                  "mitigation": "Validate/sanitize all inputs on the server side",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 10,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 1,
+                "informationDisclosure": 0,
+                "denialOfService": 0
+              }
+            },
+            "labels": [
+              "Search Request\n"
+            ],
+            "id": "f6594392-db81-4c58-a791-771b6903d41e",
+            "source": {
+              "cell": "24f7c759-2430-47c6-87fc-73f7a027aca7",
+              "port": "c6acc44b-22ee-495a-81ba-48dcb1b9c783"
+            },
+            "target": {
+              "cell": "351e5b5f-d4cc-4f9c-a231-e88f2edb6ad3",
+              "port": "d7d5022d-21b8-4a44-8a4d-6ea91818bc9b"
+            },
+            "vertices": [
+              {
+                "x": 610,
+                "y": -160
+              },
+              {
+                "x": 630,
+                "y": -140
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Get Product Info\n",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "01a12f9f-ef5e-4d01-a574-9d059cfa5cb4",
+                  "title": "Unintended data exposure",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Information disclosure",
+                  "description": "Queries may access more data than necessary",
+                  "mitigation": "Use least privilege and scoped queries",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 12,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 0,
+                "informationDisclosure": 1,
+                "denialOfService": 0
+              }
+            },
+            "labels": [
+              "Get Product Info\n"
+            ],
+            "id": "16bd5bb2-4d29-4660-a278-1e40a0eb060b",
+            "source": {
+              "cell": "351e5b5f-d4cc-4f9c-a231-e88f2edb6ad3",
+              "port": "b5306f98-8d62-466b-849c-535037dc63ff"
+            },
+            "target": {
+              "cell": "3bc905f5-672b-4aa4-97fc-c8192543c4c8",
+              "port": "7d25e07d-c680-49d1-a959-e4fcdab8072f"
+            },
+            "vertices": [
+              {
+                "x": 740,
+                "y": -190
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Send Payment\n",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "d20a8265-c38e-4ba4-b523-c603538fbc38",
+                  "title": "Redirect to fake payment page",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Tampering",
+                  "description": "Payment data may be captured via fake endpoint",
+                  "mitigation": "Verify gateway URL and use strong endpoint validation",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 13,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 1,
+                "informationDisclosure": 0,
+                "denialOfService": 0
+              }
+            },
+            "labels": [
+              "Send Payment\n"
+            ],
+            "id": "37c1bcde-ac59-4300-8436-b84a1b34ce3e",
+            "source": {
+              "cell": "351e5b5f-d4cc-4f9c-a231-e88f2edb6ad3",
+              "port": "c6acc44b-22ee-495a-81ba-48dcb1b9c783"
+            },
+            "target": {
+              "cell": "fefb0419-2c16-49b2-a5ba-4130b2139949",
+              "port": "c9519fbd-d2d7-43b6-9353-bf700453730d"
+            },
+            "vertices": [
+              {
+                "x": 810,
+                "y": -50
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Update Inventory\n",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "4ffcb5a1-36c2-4fe5-9b0f-4475b41d4db6",
+                  "title": "Fake inventory update",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Tampering",
+                  "description": "Attacker sends malicious update request",
+                  "mitigation": "Authenticate updates, log all actions",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 11,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 1,
+                "informationDisclosure": 0,
+                "denialOfService": 0
+              }
+            },
+            "labels": [
+              "Update Inventory\n"
+            ],
+            "id": "9589ea98-0ea3-4249-bb74-6207e6ecfa69",
+            "source": {
+              "cell": "85e70575-4f2f-47c9-a498-5188bc97a8d6",
+              "port": "b5306f98-8d62-466b-849c-535037dc63ff"
+            },
+            "target": {
+              "cell": "351e5b5f-d4cc-4f9c-a231-e88f2edb6ad3",
+              "port": "a124a1de-664c-4fbe-a85f-020c250a5f08"
+            },
+            "vertices": [
+              {
+                "x": 490,
+                "y": -85
+              }
+            ]
+          }
+        ],
         "description": "Main STRIDE diagram"
       }
     ],
     "diagramTop": 1,
     "reviewer": "",
-    "threatTop": 0
+    "threatTop": 13
   }
 }
